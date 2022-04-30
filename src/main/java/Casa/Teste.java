@@ -5,43 +5,39 @@ public class Teste {
 
     public static void main(String[] args) {
 
+        // Casa possui atributo: Cor e tamanho;
         Casa CasaNova = new Casa();
 
-        CasaNova.setCasacor("Azul");
         //String Casacor = "branco";
-
+        CasaNova.setCasacor("azul");
         CasaNova.setTamanho(250);
+        System.out.println("Casa de " + CasaNova.getTamanho() + "m² " + "na cor " + CasaNova.getCasacor());
 
+        // Parede poossui: altura, largura e Localização (cômodo)
+        Parede ParedeNova = new Parede();
+
+        ParedeNova.setAltura(3f);
+        ParedeNova.setLargura(5f);
+        ParedeNova.setLocalizacao("sala");
+        System.out.println("Parede da " + ParedeNova.getLocalizacao() + " tem "+ ParedeNova.getAltura() + " por: " + ParedeNova.getLargura() + "m" );
+
+        // Janela possui: altura, largura e material;
         Janela JanelaNova = new Janela();
 
         JanelaNova.setAltura(160f);
         JanelaNova.setLargura(160f);
+        JanelaNova.setMaterial("Madeira");
+        System.out.println("Janela de " + JanelaNova.getMaterial() + " com " + JanelaNova.getAltura() + " por "+ JanelaNova.getLargura() + "m " );
 
+        // Porta possui: altura, largura e material;
         Porta PortaNova = new Porta();
 
         PortaNova.setAltura(210f);
         PortaNova.setLargura(80f);
         PortaNova.setMaterial("Madeira");
+        System.out.println("Porta feita de "  + PortaNova.getMaterial() + " com " + PortaNova.getAltura() + " por "+ PortaNova.getLargura() + "m");
 
-        Parede ParedeNova = new Parede();
 
-        ParedeNova.setAltura(3f);
-        ParedeNova.setLargura(5f);
-        ParedeNova.setLocalizacao("Alvenaria");
-
-// Casa é constituida das clases: Janela, Parede e Porta.
-// Casa possui atributo: Cor e tamanho;
-// Janela possui: Dimensão e material;
-// Porta possui: Altura, largura e material;
-// Parede poossui: Localização e altura.
-
-        System.out.println("Cor da casa: " + CasaNova.getCasacor());
-        System.out.println("Tamanho da casa: " + CasaNova.getTamanho() + "m²" );
-        System.out.println("Janela tem: " + JanelaNova.getAltura() + " por "+ JanelaNova.getLargura() );
-        System.out.println("Porta tem: " + PortaNova.getAltura() + " por "+ PortaNova.getLargura() + " feita de: " + PortaNova.getMaterial());
-        System.out.println("Parede de: " + ParedeNova.getLocalizacao()+", " + "altura de : "+ ParedeNova.getAltura()+"m, " + "largura de: " + ParedeNova.getLargura()+ "m" );
-        //        System.out.println(": " + CasaNova.get );
-        //        System.out.println(": " + CasaNova.get );
 
     }
 }

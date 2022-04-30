@@ -1,8 +1,5 @@
 // Casa é constituida das clases: Janela, Porta e Parede.
-// Casa possui atributo: Cor e tamanho;
-// Janela possui: Dimensão e material;
-// Porta possui: Altura, largura e material;
-// Parede poossui: Localização e altura.
+// Casa possui atributo: Cor e tamanho (m²);
 
 package Casa;
 

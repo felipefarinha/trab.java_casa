@@ -1,4 +1,4 @@
-// Parede poossui: Localização e altura.
+// Parede poossui: altura, largura e Localização (cômodo)
 
 package Casa;
 
@@ -15,12 +15,10 @@ public class Parede {
         this.localizacao = localizacao;
     }
 
-
     public Float getAltura() {return altura;}
     public void setAltura(Float altura) {
         this.altura = altura;
     }
-
 
     public Float getLargura() {return largura;}
     public void setLargura(Float largura) {
