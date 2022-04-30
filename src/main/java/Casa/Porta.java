@@ -1,3 +1,5 @@
+// Porta possui: Altura, largura e material;
+
 package Casa;
 
 public class Porta {

@@ -1,3 +1,5 @@
+// Parede poossui: Localização e altura.
+
 package Casa;
 
 public class Parede {

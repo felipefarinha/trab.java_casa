@@ -1,3 +1,5 @@
+// Janela possui: Dimensão e material;
+
 package Casa;
 
 public class Janela {

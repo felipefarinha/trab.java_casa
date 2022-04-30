@@ -29,12 +29,18 @@ public class Teste {
         ParedeNova.setLargura(5f);
         ParedeNova.setLocalizacao("Alvenaria");
 
+// Casa é constituida das clases: Janela, Parede e Porta.
+// Casa possui atributo: Cor e tamanho;
+// Janela possui: Dimensão e material;
+// Porta possui: Altura, largura e material;
+// Parede poossui: Localização e altura.
 
         System.out.println("Cor da casa: " + CasaNova.getCasacor());
         System.out.println("Tamanho da casa: " + CasaNova.getTamanho() + "m²" );
         System.out.println("Janela tem: " + JanelaNova.getAltura() + " por "+ JanelaNova.getLargura() );
         System.out.println("Porta tem: " + PortaNova.getAltura() + " por "+ PortaNova.getLargura() + " feita de: " + PortaNova.getMaterial());
         System.out.println("Parede de: " + ParedeNova.getLocalizacao()+", " + "altura de : "+ ParedeNova.getAltura()+"m, " + "largura de: " + ParedeNova.getLargura()+ "m" );
+        //        System.out.println(": " + CasaNova.get );
         //        System.out.println(": " + CasaNova.get );
 
     }
