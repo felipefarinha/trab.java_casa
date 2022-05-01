@@ -36,8 +36,5 @@ public class Teste {
         PortaNova.setLargura(80f);
         PortaNova.setMaterial("Madeira");
         System.out.println("Porta feita de "  + PortaNova.getMaterial() + " com " + PortaNova.getAltura() + " por "+ PortaNova.getLargura() + "m");
-
-
-
     }
 }
